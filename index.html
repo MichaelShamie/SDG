@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Interactive Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-top: 5px solid #f39c12;
+            transition: all 0.3s ease-in-out;
+        }
+        header:hover {
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #f39c12;
+            transform: scale(1.1);
+        }
+        section {
+            padding: 20px;
+            margin: 15px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            display: none; 
+        }
+        section:hover {
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+        
+
+        section:target {
+            display: block;
+        }
+
+        .home {
+            display: block;
+        }
+    </style>
+
+
+</head>
+<body>
+
+<header>
+    <h1>Stop Discrimanation</h1>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#What is discrimination">What is discrimination </a>
+    <a href="#how can we stop it ">how can we stop it</a>
+    <a href="#Sources">Sources</a>    
+</nav>
+
+<section class="home">
+    <h2>Home</h2>
+    <p>
+        
+    </p>
+</section>
+
+<section id="What is discrimination">
+    <h2>About</h2>
+    <p>.......</p>
+</section>
+
+<section id="how can we stop it">
+    <h2>Services</h2>
+    <p>........</p>
+</section>
+
+<section id="Sources">
+    <h2>Sources</h2>
+    <p>.......</p>
+</section>
+
+
+</body>
+</html>
+
+
